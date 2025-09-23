@@ -53,7 +53,7 @@ const professions = [
     },
     {
         id: 3,
-        title: "Pengusaha & Wirausaha",
+        title: "Pengusaha & Pedagang",
         category: "bisnis",
         icon: "fa-store",
         verses: [
@@ -87,19 +87,24 @@ const professions = [
                 reference: "QS. Az-Zumar (39): 9"
             },
             {
-                text: "Maka apakah mereka tidak memperhatikan unta, bagaimana dia diciptakan?",
-                reference: "QS. Al-Ghasyiyah (88): 17"
+                text: "Dan di bumi terdapat tanda-tanda (kekuasaan Allah) bagi orang-orang yang yakin. Dan (juga) pada dirimu sendiri. Maka apakah kamu tidak memperhatikan?",
+                reference: "QS. Adz-Dzariyat (51): 20-21"
             },
             {
-                text: "Dan bumi, bagaimana ia dihamparkan?",
-                reference: "QS. Al-Ghasyiyah (88): 20"
-            }
+                text: "Dan apakah orang-orang kafir tidak mengetahui bahwa langit dan bumi dahulu menyatu, kemudian Kami pisahkan antara keduanya; dan Kami jadikan segala sesuatu yang hidup berasal dari air; maka mengapa mereka tidak beriman?",
+                reference: "QS. Al-Anbiya (21): 30"
+            },
         ],
-        explanation: "Islam mendorong umatnya untuk meneliti dan mempelajari alam semesta sebagai tanda kebesaran Allah. Ilmuwan dan peneliti melakukan tugas mulia dengan menggali pengetahuan untuk kemaslahatan umat manusia.",
-        quote: "Ilmu adalah kehidupan bagi pikiran dan cahaya bagi akal yang membimbing kepada kebenaran.",
-        quotePerson: "Al-Kindi (Filsuf Muslim)",
-        quote2: "Barangsiapa menempuh jalan untuk mencari ilmu, maka Allah akan memudahkan baginya jalan ke surga.",
-        quotePerson2: "HR. Muslim"
+        explanation: "Mencari ilmu pengetahuan dan memahami ciptaan Allah adalah kewajiban setiap muslim. Ilmuwan berperan penting dalam mengembangkan teknologi yang bermanfaat bagi umat manusia. Islam mendorong penelitian ilmiah sebagai bentuk ibadah dan pengamalan terhadap perintah Allah untuk berpikir dan merenungkan ciptaan-Nya.",
+        explanation2: "Dalam sejarah Islam, ilmuwan muslim telah memberikan kontribusi besar bagi peradaban dunia. Mereka mengembangkan metode ilmiah, observasi, dan eksperimen yang menjadi dasar ilmu pengetahuan modern. Profesi ini sangat mulia karena melalui penelitian, manusia dapat memahami kebesaran Allah dan memberikan manfaat bagi umat manusia.",
+        quote: "Carilah ilmu, meskipun ke negeri Cina. Karena menuntut ilmu adalah kewajiban setiap muslim.",
+        quotePerson: "HR. Ibnu Majah",
+        quote2: "Barangsiapa menempuh jalan untuk mencari ilmu, maka Allah akan memudahkan baginya jalan menuju surga.",
+        quotePerson2: "HR. Muslim",
+        quote3: "Ilmu adalah cahaya yang menerangi jalan kebenaran, dan kegelapan yang menyelimuti kebodohan.",
+        quotePerson3: "Al-Ghazali",
+        quote4: "Pengetahuan adalah kekuatan, dan dengan pengetahuan kita dapat mengubah dunia menjadi tempat yang lebih baik.",
+        quotePerson4: "Ibnu Sina (Avicenna)"
     },
     {
         id: 5,
@@ -178,13 +183,13 @@ const professions = [
     },
     {
         id: 8,
-        title: "Teknik Sipil & Arsitek",
+        title: "Teknik Sipil",
         category: "teknologi",
         icon: "fa-ruler-combined",
         verses: [
             {
-                text: "Dan ingatlah ketika Ibrahim meninggikan (membina) dasar-dasar Baitullah bersama Ismail.",
-                reference: "QS. Al-Baqarah (2): 127"
+                text: "Dan langit telah ditinggikan-Nya dan Dia ciptakan keseimbangan, agar kamu tidak melampaui batas dalam keseimbangan itu. Dan tegakkanlah keseimbangan itu dengan adil dan janganlah kamu mengurangi keseimbangan itu.",
+                reference: "Q.S Al-Rahman (55): 7-9"
             },
             {
                 text: "Sesungguhnya Allah menyukai orang yang berperang dijalan-Nya dalam barisan yang teratur seakan-akan mereka seperti suatu bangunan yang tersusun kokoh.",
@@ -528,29 +533,108 @@ const professions = [
     },
     {
         id: 22,
-        title: "Seniman & Budayawan",
-        category: "seni budaya",
+        title: "Budayawan",
+        category: "pendidikan",
         icon: "fas fa-palette",
         verses: [
             {
-                text: "Sesungguhnya Kami telah menciptakan manusia dalam bentuk yang sebaik-baiknya.",
+                text: "Dan Dia telah menciptakan manusia dalam bentuk yang sebaik-baiknya.",
                 reference: "QS. At-Tin (95): 4"
             },
             {
-                text: "Dan Dia menciptakan kamu berpasang-pasangan.",
-                reference: "QS. An-Naba (78): 8"
+                text: "Dan di bumi terdapat tanda-tanda (kekuasaan Allah) bagi orang-orang yang yakin. Dan (juga) pada dirimu sendiri. Maka apakah kamu tidak memperhatikan?",
+                reference: "QS. Adz-Dzariyat (51): 20-21"
             },
             {
-                text: "Maka hadapkanlah wajahmu dengan lurus kepada agama (Islam); (tetaplah) sebagai seorang muslim.",
-                reference: "QS. Al-Jumu'ah (62): 8"
+                text: "Yang menciptakan tujuh langit berlapis-lapis. Kamu sekali-kali tidak melihat pada ciptaan Tuhan Yang Maha Pengasih sesuatu yang tidak seimbang. Maka lihatlah sekali lagi, adakah kamu lihat sesuatu yang cacat?",
+                reference: "QS. Al-Mulk (67): 3"
             }
         ],
-        explanation: "Seni dan budaya adalah ekspresi kreativitas manusia yang dapat digunakan untuk menyampaikan pesan moral dan nilai-nilai kebaikan. Islam menghargai seni yang tidak bertentangan dengan syariat.",
-        quote: "Setiap anak Adam adalah seniman, dan Allah adalah seniman yang paling hebat.",
-        quotePerson: "Rumi",
-        quote2: "Allah itu Indah dan menyukai keindahan.",
-        quotePerson2: "HR. Muslim"
-    }
+        explanation: "Budaya adalah cerminan dari peradaban manusia yang mencakup seni, tradisi, dan nilai-nilai. Islam menghargai budaya yang baik dan mendorong umatnya untuk melestarikan warisan budaya yang positif.",
+        quote: "Setiap umat memiliki budaya, dan budayalah yang membedakan mereka satu sama lain.",
+        quotePerson: "Ibnu Khaldun",
+        quote2: "Budaya adalah jembatan antara masa lalu dan masa depan, antara generasi tua dan muda, antara tradisi dan inovasi.",
+        quotePerson2: "Ali bin Abi Thalib"
+    },
+    {
+        id: 23,
+        title: "Arsitek",
+        category: "teknologi",  
+        icon: "fa-building",
+        verses: [
+            { 
+                text: "Dan langit telah ditinggikan-Nya dan Dia ciptakan keseimbangan.",
+                reference: "QS. Ar-Rahman (55): 7"
+            },
+            {
+                text: "Yang menciptakan tujuh langit berlapis-lapis. Kamu sekali-kali tidak melihat pada ciptaan Tuhan Yang Maha Pengasih sesuatu yang tidak seimbang. Maka lihatlah sekali lagi, adakah kamu lihat sesuatu yang cacat?",
+                reference: "QS. Al-Mulk (67): 3"
+            },
+            {
+                text: "Dan Allah menjadikan rumah-rumahmu untukmu sebagai tempat tinggal (yang memberi ketenangan)",
+                reference: "QS. An-Nahl (16): 80"
+            },
+            {
+                text: "Dan negeri yang baik, tanam-tanamannya tumbuh subur dengan izin Tuhannya; dan negeri yang buruk, tanam-tanamannya hanya tumbuh merana. Demikianlah Kami menjelaskan berulang-ulang tanda-tanda (kebesaran Kami) bagi orang-orang yang bersyukur.",
+                reference: "QS. Al-A'raf (7): 58"
+            },
+         ],
+        explanation: "Arsitek memiliki peran penting dalam menciptakan lingkungan yang harmonis dan fungsional. Desain yang baik mencerminkan keteraturan ciptaan Allah dan memberikan manfaat bagi umat manusia.",
+        quote: "Sejak kapan kalian memperbudak manusia, sedangkan mereka dilahirkan oleh ibu-ibu mereka dalam keadaan merdeka?",
+        quotePerson: "Khalifah Umar bin Khattab",
+        quote2: "Bentuk mengikuti fungsi, dipandu oleh iman",
+        quotePerson2: "Esensi Arsitektur Islam"
+    },
+    {
+        id: 24,
+        title: "Ahli Gizi & Nutrisionis",
+        category: "kesehatan",
+        icon: "fa-apple-alt",
+        verses: [
+            {
+                text: " ...Dan makan dan minumlah, tetapi janganlah berlebihan. Sesungguhnya Allah tidak menyukai orang yang berlebihan.",
+                reference: "QS. Al-A'raf (7): 31"
+            },
+            {
+                text: "Dan Dia menurunkan dari langit air (hujan) lalu dengan air itu Kami keluarkan tumbuh-tumbuhan berbagai macamnya.",
+                reference: "QS. Al-An'am (6): 99"
+            },
+            {
+                text: " Dan di bumi terdapat bagian-bagian yang berdampingan, dan kebun-kebun anggur, tanaman-tanaman dan pohon kurma yang bercabang dan yang tidak bercabang, disirami dengan air yang sama. Kami melebihkan sebagian tanam-tanaman itu atas sebagian yang lain tentang rasanya. Sungguh, pada yang demikian itu terdapat tanda-tanda (kebesaran Allah) bagi kaum yang berpikir.",
+                reference: "QS. Ar-Ra'd (13): 4"
+            },
+        ],
+        explanation: "Ahli gizi dan nutrisionis berperan penting dalam menjaga kesehatan umat dengan memberikan edukasi tentang pola makan yang sehat dan seimbang sesuai dengan ajaran Islam.",
+        quote: "Tidaklah anak Adam memenuhi wadah yang lebih buruk daripada perutnya. Cukuplah bagi anak Adam beberapa suap yang menegakkan punggungnya (memberikan energi). Jika harus melakukannya, maka sepertiga untuk makanannya, sepertiga untuk minumannya, dan sepertiga untuk nafasnya.",
+        quotePerson: "HR. Tirmidzi",
+        quote2: "Waspadalah kalian terhadap kenyang berlebihan, karena ia merusak tubuh, mendatangkan penyakit, dan membuat malas untuk shalat.",
+        quotePerson2: "Umar bin Khatab R.A."
+    },
+    {
+        id: 25,
+        title: "Sosiolog",
+        category: "sosial",
+        icon: "fa-users",
+        verses: [
+            {
+                text: "Wahai manusia! Sungguh, Kami telah menciptakan kamu dari seorang laki-laki dan seorang perempuan, kemudian Kami jadikan kamu berbangsa-bangsa dan bersuku-suku agar kamu saling mengenal. Sesungguhnya yang paling mulia di antara kamu di sisi Allah ialah orang yang paling bertakwa. Sungguh, Allah Maha Mengetahui, Maha Teliti.",
+                reference: "QS. Al-Hujurat (49): 13"
+            },
+            {
+                text: "... Dan tolong-menolonglah kamu dalam (mengerjakan) kebajikan dan ketakwaan, dan jangan tolong-menolong dalam berbuat dosa dan permusuhan...",
+                reference: "QS. Al-Maidah (5): 2"
+            },
+            {
+                text: "Kamu adalah umat terbaik yang dilahirkan untuk manusia, (karena kamu) menyuruh (berbuat) yang makruf, dan mencegah dari yang mungkar, dan beriman kepada Allah...",
+                reference: "QS. Ali Imran (3): 110"
+            },
+        ],
+        explanation: "Sosiolog mempelajari interaksi sosial dan struktur masyarakat. Dalam Islam, memahami dinamika sosial sangat penting untuk menciptakan masyarakat yang harmonis dan berkeadilan.",
+        quote: "Sesungguhnya orang yang paling dicintai oleh Allah di antara kalian dan yang paling dekat kedudukannya di sisi-Nya pada hari kiamat adalah orang yang paling baik akhlaknya di antara kalian.",
+        quotePerson: "HR. Tirmidzi",
+        quote2: "Perumpamaan orang-orang mukmin dalam hal kasih sayang, saling mencintai, dan saling mengasihi adalah seperti satu tubuh; apabila satu anggota tubuh sakit, maka seluruh tubuh akan merasakan sakitnya.",
+        quotePerson2: "HR. Bukhari dan Muslim"
+    },
 ];
 
 // Fungsi untuk menampilkan notifikasi
