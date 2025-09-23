@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profesi dalam Perspektif Al-Quran</title>
+    <link rel="shortcut icon" href="./download (1).jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav
+        style="background: var(--primary-color); color: var(--light-text); padding: 0.8rem 0; box-shadow: 0 2px 8px rgba(0,0,0,0.07);">
+        <div style="max-width:1200px; margin:0 auto; display:flex; align-items:center;">
+            <a href="./index.html">
+                <div style="font-weight:700; font-size:1.2rem; text-align:left; margin-left: 1.5rem;">
+                    <i class="fas fa-book"></i> Profesi dalam Al-Quran
+                </div>
+
+            </a>
+        </div>
+    </nav>
+    <header>
+        <div class="header-pattern"></div>
+        <div class="header-content">
+            <h1>Profesi dalam Perspektif Al-Quran</h1>
+            <p class="subtitle">Menggali panduan ilahi untuk berbagai bidang pekerjaan umum dalam kehidupan</p>
+        </div>
+    </header>
+
+    <div class="nav-tabs">
+        <button class="nav-tab active" data-tab="professions"><i class="fas fa-briefcase"></i> Daftar Profesi</button>
+        <button class="nav-tab" data-tab="bookmarks"><i class="fas fa-bookmark"></i> Bookmark</button>
+    </div>
+
+    <div id="professionsTab">
+        <div class="search-container">
+            <i class="fas fa-search search-icon"></i>
+            <input type="text" id="searchInput" placeholder="Cari profesi atau ayat...">
+        </div>
+
+
+        <div class="categories">
+            <button class="category-btn active" data-category="all"><i class="fas fa-layer-group"></i> Semua</button>
+            <button class="category-btn" data-category="kesehatan"><i class="fas fa-heartbeat"></i> Kesehatan</button>
+            <button class="category-btn" data-category="pendidikan"><i class="fas fa-graduation-cap"></i>
+                Pendidikan</button>
+            <button class="category-btn" data-category="bisnis"><i class="fas fa-chart-line"></i> Bisnis</button>
+            <button class="category-btn" data-category="teknologi"><i class="fas fa-laptop-code"></i> Teknologi</button>
+            <button class="category-btn" data-category="sosial"><i class="fas fa-hands-helping"></i> Sosial</button>
+            <button class="category-btn" data-category="pemerintahan"><i class="fas fa-landmark"></i>
+                Pemerintahan</button>
+            <button class="category-btn" data-category="pertanian"><i class="fas fa-tractor"></i> Pertanian</button>
+            <button class="category-btn" data-category="media"><i class="fas fa-film"></i> Media & Kreatif</button>
+            <button class="category-btn" data-category="hukum"><i class="fas fa-gavel"></i> Hukum</button>
+            <button class="category-btn" data-category="lingkungan"><i class="fas fa-leaf"></i> Lingkungan</button>
+            <button class="category-btn" data-category="ibu rumah tangga"><i class="fas fa-home"></i> Ibu Rumah
+                Tangga</button>
+            <button class="category-btn" data-category="seni budaya"><i class="fas fa-palette"></i> Seniman</button>
+
+        </div>
+
+        <div class="result-count" id="resultCount"></div>
+
+        <div class="profession-container" id="professionContainer">
+            <div class="loading">
+                <div class="loading-dots">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="bookmarksTab" class="hidden">
+        <div class="bookmarks-container">
+            <h2 style="text-align: center; margin-bottom: 1.5rem; color: var(--primary-color);"><i
+                    class="fas fa-bookmark"></i> Profesi yang Dibuukmark</h2>
+            <div id="bookmarksList" class="profession-container">
+                <div class="bookmarks-placeholder">
+                    <i class="fas fa-bookmark" style="font-size: 3rem; margin-bottom: 1rem; color: #ccc;"></i>
+                    <h3>Belum ada bookmark</h3>
+                    <p>Klik ikon bookmark pada kartu profesi untuk menambahkannya ke sini</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <p>© 2025 Riset Profesi dalam Al-Quran - Sebuah Kajian untuk Santri</p>
+            <p class="footer-quote">"Hai orang-orang yang beriman, apabila dikatakan kepadamu: 'Berlapang-lapanglah
+                dalam majlis', maka lapangkanlah, niscaya Allah akan memberi kelapangan untukmu." (QS. Al-Mujadilah: 11)
+            </p>
+        </div>
+    </footer>
+
+    <!-- Notification Element -->
+    <div id="notification" class="notification">
+        <i class="fas fa-check-circle"></i>
+        <span id="notificationText">Bookmark berhasil ditambahkan!</span>
+    </div>
+
+</body>
+<script src="./script.js"></script>
+</html>

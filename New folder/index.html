@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profesi dalam Perspektif Al-Quran</title>
+    <link rel="shortcut icon" href="./download (1).jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --primary-color: #2abbc5;
+            --secondary-color: #d1e7dd;
+            --accent-color: #2abbc5;
+            --text-color: #333;
+            --light-text: #fff;
+            --card-bg: #fff;
+            --footer-bg: #0d4c52;
+            --bookmark-color: #ffd700;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f9f9f9;
+            color: var(--text-color);
+            line-height: 1.6;
+            scroll-behavior: smooth;
+        }
+
+        .hero-section {
+            background-image: url('./270f80cfd70954ae70a89fcedc1fa600.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            color: var(--light-text);
+            padding: 4rem 1.5rem;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+            min-height: 70vh;
+            display: flex;
+            align-items: center;
+        }
+
+        .hero-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.6);
+            z-index: 1;
+        }
+
+        .hero-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 2;
+        }
+
+        .hero-pattern {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            opacity: 0.05;
+            background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11 18c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm48 25c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm-43-7c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm63 31c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM34 90c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm56-76c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM12 86c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm28-65c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm23-11c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-6 60c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm29 22c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zM32 63c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm57-13c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-9-21c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM60 91c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM35 41c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM12 60c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2z' fill='%23ffffff' fill-rule='evenodd'/%3E%3C/svg%3E");
+        }
+
+        .hero-title {
+            font-size: 3.5rem;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+            animation: fadeInUp 1s ease-out;
+        }
+
+        .hero-subtitle {
+            font-size: 1.3rem;
+            margin-bottom: 2rem;
+            opacity: 0.9;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+            animation: fadeInUp 1s ease-out 0.2s both;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 1rem 2.5rem;
+            background-color: var(--accent-color);
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(76, 175, 80, 0.3);
+            animation: fadeInUp 1s ease-out 0.4s both;
+        }
+
+        .cta-button:hover {
+            background-color: #136f75;
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(76, 175, 80, 0.4);
+        }
+
+        .features-section {
+            padding: 4rem 1.5rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 2.5rem;
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+        }
+
+        .section-subtitle {
+            text-align: center;
+            font-size: 1.1rem;
+            color: #666;
+            margin-bottom: 3rem;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-bottom: 3rem;
+        }
+
+        .feature-card {
+            background: var(--card-bg);
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+        }
+
+        .feature-icon {
+            font-size: 3rem;
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+        }
+
+        .feature-title {
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: var(--primary-color);
+        }
+
+        .feature-description {
+            color: #666;
+            line-height: 1.6;
+        }
+
+        .preview-section {
+            background-image: url(./islami\ golden\ age.jpg);
+            background-attachment: fixed;
+            background-size: cover;
+            background-repeat: no-repeat;
+            padding: 4rem 1.5rem;
+        }
+
+        .preview-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .preview-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        .preview-card {
+            background: var(--card-bg);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+            transition: all 0.3s ease;
+        }
+
+        .preview-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+        }
+
+        .preview-header {
+            background: linear-gradient(to right, var(--primary-color), #2c8c92);
+            color: var(--light-text);
+            padding: 1rem;
+            position: relative;
+        }
+
+        .preview-icon {
+            position: absolute;
+            right: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 1.5rem;
+            opacity: 0.3;
+        }
+
+        .preview-body {
+            padding: 1.5rem;
+        }
+
+        .preview-title {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: var(--primary-color);
+        }
+
+        .preview-text {
+            font-size: 0.9rem;
+            color: #666;
+            line-height: 1.5;
+            margin-bottom: 1rem;
+        }
+
+        .preview-link {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.9rem;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            transition: all 0.3s ease;
+        }
+
+        .preview-link:hover {
+            color: var(--accent-color);
+        }
+
+        .stats-section {
+            padding: 3rem 1.5rem;
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .stat-item {
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+
+        .stat-label {
+            color: #666;
+            font-size: 0.9rem;
+        }
+
+        footer {
+            background-color: var(--footer-bg);
+            color: var(--light-text);
+            text-align: center;
+            padding: 2.5rem;
+            margin-top: 3rem;
+        }
+
+        .footer-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .footer-quote {
+            font-style: italic;
+            margin: 1.5rem 0;
+            padding: 0 1rem;
+            opacity: 0.9;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .hero-title {
+                font-size: 2.5rem;
+            }
+
+            .hero-subtitle {
+                font-size: 1.1rem;
+            }
+
+            .features-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .preview-cards {
+                grid-template-columns: 1fr;
+            }
+
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 1rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero-section {
+                padding: 3rem 1rem;
+            }
+
+            .hero-title {
+                font-size: 2rem;
+            }
+
+            .cta-button {
+                padding: 0.8rem 2rem;
+                font-size: 1rem;
+            }
+
+            .section-title {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav
+        style="background: var(--primary-color); color: var(--light-text); padding: 0.8rem 0; box-shadow: 0 2px 8px rgba(0,0,0,0.07);">
+        <div style="max-width:1200px; margin:0 auto; display:flex; align-items:center;">
+            <div style="font-weight:700; font-size:1.2rem; text-align:left; margin-left: 1.5rem;">
+                <i class="fas fa-book"></i> Profesi dalam Al-Quran
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero-section">
+        <div class="hero-pattern"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">Profesi dalam Perspektif Al-Quran</h1>
+            <p class="hero-subtitle">
+                Jelajahi panduan ilahi untuk berbagai bidang pekerjaan modern melalui lensa Al-Quran dan Hadits.
+                Temukan inspirasi dan motivasi dalam menjalankan profesi Anda sesuai dengan nilai-nilai Islam.
+            </p>
+            <a href="profesi-alquran.html" class="cta-button">
+                <i class="fas fa-arrow-right"></i> Mulai Jelajahi
+            </a>
+        </div>
+    </section>
+
+    <section class="features-section">
+        <h2 class="section-title">Mengapa Website Ini Penting?</h2>
+        <p class="section-subtitle">
+            Website ini menyajikan perspektif Islam tentang berbagai profesi modern dengan dasar yang kuat dari Al-Quran
+            dan Hadits
+        </p>
+
+        <div class="features-grid">
+            <div class="feature-card">
+                <i class="fas fa-quran feature-icon"></i>
+                <h3 class="feature-title">Dasar Al-Quran</h3>
+                <p class="feature-description">
+                    Setiap profesi dijelaskan dengan ayat-ayat Al-Quran yang relevan sebagai landasan utama
+                </p>
+            </div>
+
+            <div class="feature-card">
+                <i class="fas fa-graduation-cap feature-icon"></i>
+                <h3 class="feature-title">Penjelasan Mendalam</h3>
+                <p class="feature-description">
+                    Penjelasan komprehensif tentang bagaimana ajaran Islam memandang setiap bidang profesi
+                </p>
+            </div>
+
+            <div class="feature-card">
+                <i class="fas fa-quote-right feature-icon"></i>
+                <h3 class="feature-title">Quote Inspiratif</h3>
+                <p class="feature-description">
+                    Kutipan dari ulama, nabi, dan tokoh muslim terkemuka untuk memotivasi perjalanan karir Anda
+                </p>
+            </div>
+
+            <div class="feature-card">
+                <i class="fas fa-search feature-icon"></i>
+                <h3 class="feature-title">Pencarian Mudah</h3>
+                <p class="feature-description">
+                    Fitur pencarian dan filter berdasarkan kategori untuk menemukan profesi yang Anda cari
+                </p>
+            </div>
+
+            <div class="feature-card">
+                <i class="fas fa-bookmark feature-icon"></i>
+                <h3 class="feature-title">Bookmark Favorit</h3>
+                <p class="feature-description">
+                    Simpan profesi yang menarik untuk dibaca kembali di lain waktu
+                </p>
+            </div>
+
+            <div class="feature-card">
+                <i class="fas fa-mobile-alt feature-icon"></i>
+                <h3 class="feature-title">Responsive Design</h3>
+                <p class="feature-description">
+                    Dapat diakses dengan nyaman dari berbagai perangkat, desktop maupun mobile
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="preview-section">
+        <div class="preview-container">
+            <h2 class="section-title" style="color: var(--primary-color);">Pratinjau Profesi</h2>
+            <p class="section-subtitle" style="color: #ffffff;">
+                Berikut adalah beberapa contoh profesi yang dibahas dalam website ini
+            </p>
+
+            <div class="preview-cards">
+                <div class="preview-card">
+                    <div class="preview-header">
+                        <h3>Dokter & Tenaga Medis</h3>
+                        <i class="fas fa-user-md preview-icon"></i>
+                    </div>
+                    <div class="preview-body">
+                        <p class="preview-text">
+                            Profesi mulia yang berhubungan dengan penyelamatan nyawa dan pengobatan penyakit, sesuai
+                            dengan perintah Allah untuk menjaga kehidupan.
+                        </p>
+                        <a href="profesi-alquran.html" class="preview-link">
+                            Baca Selengkapnya <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="preview-card">
+                    <div class="preview-header">
+                        <h3>Guru & Pendidik</h3>
+                        <i class="fas fa-chalkboard-teacher preview-icon"></i>
+                    </div>
+                    <div class="preview-body">
+                        <p class="preview-text">
+                            Kedudukan yang sangat tinggi dalam Islam karena peran mereka dalam mencerdaskan umat dan
+                            menyebarkan ilmu pengetahuan.
+                        </p>
+                        <a href="profesi-alquran.html" class="preview-link">
+                            Baca Selengkapnya <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="preview-card">
+                    <div class="preview-header">
+                        <h3>Pengusaha & Wirausaha</h3>
+                        <i class="fas fa-store preview-icon"></i>
+                    </div>
+                    <div class="preview-body">
+                        <p class="preview-text">
+                            Bisnis yang jujur dan adil sangat dianjurkan dalam Islam. Nabi Muhammad SAW sendiri adalah
+                            seorang pedagang sebelum menjadi Nabi.
+                        </p>
+                        <a href="profesi-alquran.html" class="preview-link">
+                            Baca Selengkapnya <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="preview-card">
+                    <div class="preview-header">
+                        <h3>Ilmuwan & Peneliti</h3>
+                        <i class="fas fa-microscope preview-icon"></i>
+                    </div>
+                    <div class="preview-body">
+                        <p class="preview-text">
+                            Islam mendorong umatnya untuk meneliti dan mempelajari alam semesta sebagai tanda kebesaran
+                            Allah.
+                        </p>
+                        <a href="profesi-alquran.html" class="preview-link">
+                            Baca Selengkapnya <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="stats-section">
+        <h2 class="section-title" style="color: var(--primary-color);">Statistik Konten</h2>
+        <div class="stats-grid">
+            <div class="stat-item">
+                <span class="stat-number">22</span>
+                <div class="stat-label">Profesi Berbeda</div>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">12</span>
+                <div class="stat-label">Kategori Profesi</div>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">50+</span>
+                <div class="stat-label">Ayat Al-Quran</div>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">40+</span>
+                <div class="stat-label">Quote Inspiratif</div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <p>© 2025 Riset Profesi dalam Al-Quran - Sebuah Kajian untuk Santri</p>
+            <p class="footer-quote">
+                "Hai orang-orang yang beriman, apabila dikatakan kepadamu: 'Berlapang-lapanglah dalam majlis', maka
+                lapangkanlah, niscaya Allah akan memberi kelapangan untukmu."
+                <br><strong>QS. Al-Mujadilah: 11</strong>
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
