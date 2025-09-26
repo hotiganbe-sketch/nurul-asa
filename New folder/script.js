@@ -28,7 +28,7 @@ const professions = [
     },
     {
         id: 2,
-        title: "Guru & Pendidik",
+        title: "Guru",
         category: "pendidikan",
         icon: "fa-chalkboard-teacher",
         verses: [
@@ -635,6 +635,183 @@ const professions = [
         quote2: "Perumpamaan orang-orang mukmin dalam hal kasih sayang, saling mencintai, dan saling mengasihi adalah seperti satu tubuh; apabila satu anggota tubuh sakit, maka seluruh tubuh akan merasakan sakitnya.",
         quotePerson2: "HR. Bukhari dan Muslim"
     },
+    {
+        id: 26,
+        title: "Ahli Ekonomi",
+        category: "bisnis",
+        icon: "fa-chart-line",
+        verses: [
+            {
+                text: "Orang-orang yang makan riba tidak dapat berdiri melainkan seperti berdirinya orang yang kemasukan setan lantaran (tekanan) penyakit gila. Keadaan mereka yang demikian itu adalah karena mereka berkata (berpendapat), sesungguhnya jual beli itu sama dengan riba, padahal Allah telah menghalalkan jual beli dan mengharamkan riba.",
+                reference: "QS. Al-Baqarah (2): 275"
+            },
+            {
+                text: "(Agar harta) tidak hanya beredar di antara orang-orang kaya saja di antara kamu.",
+                reference: "QS. Al-Hashr (59): 7"
+            },
+            {
+                text: "Dan janganlah kamu memakan harta di antara kamu dengan jalan yang batil, dan (janganlah) kamu membawa (urusan) harta itu kepada hakim, supaya kamu dapat memakan sebagian daripada harta benda orang lain itu dengan (jalan berbuat) dosa, padahal kamu mengetahui.",
+                reference: "QS. Al-Baqarah (2): 188"
+            }
+        ],
+        explanation: "Ahli ekonomi mempelajari sistem ekonomi, distribusi sumber daya, dan kebijakan keuangan. Dalam Islam, ekonomi harus berdasarkan keadilan, menghindari riba, dan memastikan kesejahteraan bersama.",
+        quote: "Ekonomi Islam adalah ilmu yang mengatur hubungan manusia dengan harta benda berdasarkan prinsip-prinsip syariah.",
+        quotePerson: "Muhammad Baqir al-Sadr",
+        quote2: "Kesejahteraan ekonomi adalah hak setiap individu, dan negara bertanggung jawab untuk mewujudkannya.",
+        quotePerson2: "Imam Khomeini"
+    },
+    {
+        id: 27,
+        title: "Sutradara",
+        category: "media",
+        icon: "fa-film",
+        verses: [
+            {
+                text: "Allah menganugerahkan hikmah kepada siapa yang Dia kehendaki...",
+                reference: "QS. Al-Baqarah (2): 269"
+            },
+            {
+                text: "Sungguh,pada kisah-kisah mereka itu terdapat pelajaran bagi orang-orang yang mempunyai akal.",
+                reference: "QS. Yusuf (12): 111"
+            },
+            {
+              text: "Dan hendaklah di antara kamu ada segolongan orang yang menyeru kepada kebajikan, menyuruh (berbuat) yang makruf, dan mencegah dari yang mungkar. Dan mereka itulah orang-orang yang beruntung.",
+                reference: "QS. Ali Imran (3): 104"
+            },
+        ],
+        explanation: "Sutradara memiliki peran penting dalam menyampaikan pesan melalui media visual. Dalam Islam, karya seni harus mengandung nilai-nilai positif dan tidak bertentangan dengan ajaran agama.",
+        quote: "Kebiasaan manusia itu menulis kisah, dan kiash itu memperkuat ikatan sosial mereka.",
+        quotePerson: "Ibnu Khaldun",
+        quote2: "kebiasaan manusia itu melihat gambar, dan gambar itu memperkuat ingatan mereka.",
+        quotePerson2: ""
+    },
+    {
+        id: 28,
+        title: "Musisi",
+        category: "media",
+        icon: "fa-music",
+        verses: [
+            {
+                text: "Dan di antara manusia ada orang yang memperjualbelikan perkataan yang sia-sia untuk menyesatkan (orang) dari jalan Allah tanpa pengetahuan, dan menjadikan jalan itu (terlihat) indah bagi mereka. Mereka itulah orang-orang yang mendapat azab yang berat.",
+                reference: "QS. Luqman (31): 6"
+            },
+            {
+                text: "Dan sederhanakanlah dalam berjalanmu dan lunakkanlah suaramu. Sesungguhnya seburuk-buruk suara ialah suara keledai.",
+                reference: "QS. Luqman (31): 19"
+            },
+            {
+                text: "Dan penyair-penyair itu diikuti oleh orang-orang yang sesat... Kecuali orang-orang yang beriman dan beramal shalih serta banyak mengingat Allah...",
+                reference: "QS. Asy-Syu'ara (26): 224-227"
+            },
+        ],
+        explanation: "Musisi dalam Islam harus berhati-hati dalam memilih jenis musik dan lirik yang sesuai dengan nilai-nilai agama. Musik yang positif dapat menjadi sarana untuk menginspirasi dan menyebarkan kebaikan.",
+        quote: "Barangsiapa yang mendengarkan sesuatu dari musik, maka setan akan mengikatnya dengan rantai pada hari kiamat.",
+        quotePerson: "HR. Ahmad",
+        quote2: "Musik memiliki kekuatan untuk mengarahkan jiwa kepada akhlak yang baik, sebagaimana ia juga bisa mengarahkannya kepada akhlak yang buruk.",
+        quotePerson2: "Al-Farabi"
+    },
+    {
+        id: 29,
+        title: "Sekretaris & Notulena",
+        category: "Sosial",
+        icon: "fa-file-alt",
+        verses: [
+            {
+                text: "…Dan janganlah kamu jemu menuliskannya untuk batas waktunya, baik utang itu kecil maupun besar. Yang demikian itu lebih adil di sisi Allah, lebih menguatkan persaksian, dan lebih dekat kepada tidak menimbulkan keraguan. Tulislah… dan janganlah penulis enggan menuliskannya sebagaimana Allah telah mengajarkannya...",
+                reference: "QS. Al-Baqarah (2): 282"
+            },
+            {
+                text: "Padahal sesungguhnya bagi kamu ada malaikat-malaikat yang mengawasi (pekerjaanmu), yang mulia (di sisi Allah) dan yang mencatat (pekerjaanmu). Mereka mengetahui apa yang kamu kerjakan.",
+                reference: "QS. Qaf (50): 17-18"
+            },
+            {
+                text: "Sesungguhnya orang yang paling baik kamu pekerjakan adalah orang yang kuat lagi terpercaya.",
+                reference: "QS. Al-Qasas (28): 26"
+            },
+        ],
+        explanation: "Sekretaris dan notulena memiliki peran penting dalam mencatat dan mengelola informasi. Dalam Islam, pencatatan yang akurat adalah bagian dari amanah yang harus dijalankan dengan jujur dan teliti.",
+        quote: "Kejujuran adalah sebuah amanah, dan dusta adalah pengkhianatan.",
+        quotePerson: "Abu Bakar Ash-Shiddiq R.A",
+        quote2: "Sesungguhnya hati manusia itu laksana lautan, kadang tenang dan kadang bergelombang. Maka, peganglah ia dengan takwa kepada Allah.",
+        quotePerson2: "Umar bin Khattab R.A"
+    },
+    {
+        id: 30,
+        title: "Ahli Statistik & Data Scientist",
+        category: "teknologi",
+        icon: "fa-database",
+        verses: [
+            {
+                text: "idak ada sebutir biji pun dalam kegelapan bumi, tidak sesuatu yang basah atau kering, melainkan tertulis dalam Kitab yang jelas.",
+                reference: "QS. Al-An'am (6): 59"
+            },
+            {
+                text: "Dan Allah menghitung segala sesuatu satu per satu.",
+                reference: "QS. Al-Jinn (72): 28"
+            },
+            {
+                text: "Dan jika kamu (tetap) dalam keraguan tentang Al-Qur'an yang Kami wahyukan kepada hamba Kami (Muhammad), buatlah satu surah saja yang semisal Al-Qur'an itu dan ajaklah penolong-penolongmu selain Allah, jika kamu orang-orang yang benar.",
+                reference: "QS. Al-Baqarah (2): 23"
+            },
+        ],
+        explanation: "Ahli statistik dan data scientist memiliki peran penting dalam mengolah dan menganalisis data untuk pengambilan keputusan yang tepat. Dalam Islam, ilmu pengetahuan dan teknologi harus digunakan untuk kebaikan umat manusia.",
+        quote: "Hitunglah (data) manusia, dari mana mereka mencari penghidupan. Karena sesungguhnya mereka tidak akan sabar menahan lapar (kelaparan).",
+        quotePerson: "Umar bin Khattab R.A",
+        quote2: "Data yang bersih dan analisis yang jujur adalah amanah ahli statistika untuk kemaslahatan bangsa.",
+        quotePerson2: "Cici Sutisna"
+    },
+    {
+        id: 31,
+        title: "Programmer",
+        category: "teknologi",
+        icon: "fa-laptop-code",
+        verses: [
+            {
+                text: "Dan bahwa seorang manusia tidak memperoleh selain apa yang telah diusahakannya. Dan bahwa usahanya itu kelak akan diperlihatkan (kepadanya).",
+                reference: "QS. An-Najm (53): 39-40"
+            },
+            {
+                text: "Wahai orang-orang yang beriman! Mohonlah pertolongan (kepada Allah) dengan sabar dan shalat. Sungguh, Allah beserta orang-orang yang sabar.",
+                reference: "QS. Al-Baqarah (2): 153"
+            },
+            {
+                text: "Demi masa. Sesungguhnya manusia benar-benar dalam kerugian, kecuali orang-orang yang beriman dan mengerjakan amal saleh dan saling menasihati dalam kebenaran dan saling menasihati untuk menetapi kesabaran.",
+                reference: "QS. Al-Asr (103): 1-3"
+            },
+        ],
+        explanation: "Programmer memiliki peran penting dalam mengembangkan teknologi yang bermanfaat bagi umat manusia. Dalam Islam, kerja keras dan kesabaran adalah kunci untuk mencapai keberhasilan.",
+        quote: "Commit to iman first, then code.",
+        quotePerson: "Nurul - Asa",
+        quote2: "Sabar itu separuh dari iman, dan kerja keras adalah kunci kesuksesan.",
+        quotePerson2: "Umar bin Khattab R.A"
+
+    },  
+    {
+        id: 32,
+        title: "Bendahara",
+        category: "sosial",
+        icon: "fa-wallet",
+        verses: [
+            {
+                text: "Dan mereka yang memelihara amanat-amanat (yang dipikulnya) dan janjinya.",
+                reference: "QS. Al-Mu'minun (23): 8"
+            },
+            {
+                text: "Dan janganlah kamu memakan harta di antara kamu dengan jalan yang batil (salah/tidak benar)...",
+                reference: "QS. Al-Baqarah (2): 188"
+            },
+            {
+                text: "Wahai orang-orang yang beriman! Janganlah kamu saling memakan harta sesamamu dengan jalan yang batil (salah)...",
+                reference: "QS. An-Nisa (4): 29"
+            },
+        ],
+        explanation: "Bendahara memiliki tanggung jawab besar dalam mengelola keuangan dengan jujur dan transparan. Dalam Islam, amanah adalah hal yang sangat penting dan harus dijalankan dengan penuh tanggung jawab.",
+        quote: "Seseorang senantiasa dalam kebaikan selama ia memiliki rasa takut (khasyyah) kepada Allah. Dan amanah itu akan tetap lestari selama pemegangnya merasa takut kepada Allah. Jika rasa takut kepada Allah itu hilang, maka ia pun akan berkhianat.",
+        quotePerson: "Hasan Al-Bashri",
+        quote2: "Tidak ada kejujuran yang lebih baik daripada kejujuran dalam mengelola harta orang lain.",
+        quotePerson2: "Ali bin Abi Thalib"
+    },  
+    
 ];
 
 // Fungsi untuk menampilkan notifikasi
@@ -982,7 +1159,8 @@ function switchTab(tabName) {
 // Inisialisasi
 document.addEventListener('DOMContentLoaded', () => {
     // Perbaiki teks typo
-    document.querySelector('#bookmarksTab h2').textContent = "Profesi yang Dibuukmark";
+    document.querySelector('#bookmarksTab h2').textContent = "Profesi yang Dibookmark";
+    // Perbaiki teks typo
 
     // Tampilkan semua profesi pertama kali setelah delay kecil untuk loading effect
     setTimeout(() => {
