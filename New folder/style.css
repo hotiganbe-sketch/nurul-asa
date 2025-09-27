@@ -189,6 +189,10 @@ h1 {
     gap: 2rem;
 }
 
+#bookmarksList {
+    justify-content: center;
+}
+
 .profession-card {
     background-color: var(--card-bg);
     border-radius: 12px;
