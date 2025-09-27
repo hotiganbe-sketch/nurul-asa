@@ -242,7 +242,7 @@ const professions = [
                 reference: "QS. Al-Isra (17): 36"
             },
             {
-                text: "Sesungguhnya Kami telah menawarkan amanah kepada langit, bumi, dan gunung-gunung.",
+                text: "Sesungguhnya Kami telah menawarkan amanah kepada langit, bumi, dan gunung-gunung, tetapi mereka enggan untuk memikulnya dan mereka khawatir akan mengkhianatinya, dan dipikullah amanah itu oleh manusia. Sungguh, manusia itu sangat zalim dan sangat bodoh.",
                 reference: "QS. Al-Ahzab (33): 72"
             },
             {
@@ -304,7 +304,7 @@ const professions = [
         quote: "Pemimpin suatu kaum adalah pelayan mereka.",
         quotePerson: "Ali bin Abi Thalib",
         quote2: "Keadilan adalah pondasi utama dalam pemerintahan dan kehidupan bermasyarakat.",
-        quotePerson2: "Umar bin Khattab"
+        quotePerson2: "Umar bin Khattab R.A. "
     },
     {
         id: 13,
@@ -358,7 +358,7 @@ const professions = [
     },
     {
         id: 15,
-        title: "Pekerja Sosial",
+        title: "Sukarelawan",
         category: "sosial",
         icon: "fa-hands-helping",
         verses: [
@@ -402,7 +402,7 @@ const professions = [
         ],
         explanation: "Profesi hakim dan pengacara sangat penting dalam Islam untuk menegakkan keadilan dan melindungi hak-hak masyarakat. Setiap keputusan harus berdasarkan kejujuran dan tidak mengikuti hawa nafsu.",
         quote: "Keadilan adalah pondasi utama dalam pemerintahan dan kehidupan bermasyarakat.",
-        quotePerson: "Umar bin Khattab",
+        quotePerson: "Umar bin Khattab R.A.",
         quote2: "Pemimpin suatu kaum adalah pelayan mereka.",
         quotePerson2: "Ali bin Abi Thalib"
     },
@@ -483,8 +483,8 @@ const professions = [
     },
     {
         id: 20,
-        title: "Ibu Rumah Tangga",
-        category: "ibu rumah tangga",
+        title: "Rumah Tangga",
+        category: "rumah tangga",
         icon: "fa-home",
         verses: [
             {
@@ -581,7 +581,7 @@ const professions = [
          ],
         explanation: "Arsitek memiliki peran penting dalam menciptakan lingkungan yang harmonis dan fungsional. Desain yang baik mencerminkan keteraturan ciptaan Allah dan memberikan manfaat bagi umat manusia.",
         quote: "Sejak kapan kalian memperbudak manusia, sedangkan mereka dilahirkan oleh ibu-ibu mereka dalam keadaan merdeka?",
-        quotePerson: "Khalifah Umar bin Khattab",
+        quotePerson: "Umar bin Khattab",
         quote2: "Bentuk mengikuti fungsi, dipandu oleh iman",
         quotePerson2: "Esensi Arsitektur Islam"
     },
@@ -733,7 +733,7 @@ const professions = [
         quote: "Kejujuran adalah sebuah amanah, dan dusta adalah pengkhianatan.",
         quotePerson: "Abu Bakar Ash-Shiddiq R.A",
         quote2: "Sesungguhnya hati manusia itu laksana lautan, kadang tenang dan kadang bergelombang. Maka, peganglah ia dengan takwa kepada Allah.",
-        quotePerson2: "Umar bin Khattab R.A"
+        quotePerson2: "Umar bin Khattab R.A."
     },
     {
         id: 30,
@@ -756,7 +756,7 @@ const professions = [
         ],
         explanation: "Ahli statistik dan data scientist memiliki peran penting dalam mengolah dan menganalisis data untuk pengambilan keputusan yang tepat. Dalam Islam, ilmu pengetahuan dan teknologi harus digunakan untuk kebaikan umat manusia.",
         quote: "Hitunglah (data) manusia, dari mana mereka mencari penghidupan. Karena sesungguhnya mereka tidak akan sabar menahan lapar (kelaparan).",
-        quotePerson: "Umar bin Khattab R.A",
+        quotePerson: "Umar bin Khattab R.A.",
         quote2: "Data yang bersih dan analisis yang jujur adalah amanah ahli statistika untuk kemaslahatan bangsa.",
         quotePerson2: "Cici Sutisna"
     },
@@ -783,7 +783,7 @@ const professions = [
         quote: "Commit to iman first, then code.",
         quotePerson: "Nurul - Asa",
         quote2: "Sabar itu separuh dari iman, dan kerja keras adalah kunci kesuksesan.",
-        quotePerson2: "Umar bin Khattab R.A"
+        quotePerson2: "Umar bin Khattab R.A."
 
     },  
     {
@@ -811,7 +811,81 @@ const professions = [
         quote2: "Tidak ada kejujuran yang lebih baik daripada kejujuran dalam mengelola harta orang lain.",
         quotePerson2: "Ali bin Abi Thalib"
     },  
-    
+    {
+        id: 33,
+        title: "Ayah",
+        category: "rumah tangga",
+        icon: "fa-home",
+        verses: [
+            {
+                text:"Wahai orang-orang yang beriman! Peliharalah dirimu dan keluargamu dari api neraka yang bahan bakarnya adalah manusia dan batu...",
+                reference: "QS. At-Tahrim (66): 6"
+            },
+            {
+                text: "Wahai anakku! Janganlah engkau mempersekutukan Allah, sesungguhnya mempersekutukan (Allah) adalah benar-benar kezaliman yang besar.",
+                reference: "QS. Luqman (31): 13"
+            },
+            {
+                text: "Ya Tuhan kami, limpahkanlah kesabaran kepada kami, teguhkanlah pendirian kami, dan tolonglah kami terhadap orang-orang kafir.",
+                reference: "QS. Al-Baqarah (2): 250"
+            },
+        ],
+        explanation: "Ayah adalah sosok yang teramat penting bagi keluarganya, selain memiliki tugas untuk mencari nafkah untuk kehidupan keluarganya Ayah juga merupakan contoh bagi anak-anaknya. Ayah memiliki peran layaknya kapten dalam bahtera rumah-tangga, tanggung jawab yang dipikulnya amatlah berat namun jika seorang Ayah mampu melaksanakan tugasnya dengan benar maka ganjaran yang akan diterima nya juga amatlah besar. ",
+        quote: "Setiap kalian adalah pemimpin dan setiap kalian akan dimintai pertanggungjawaban atas yang dipimpinnya. Seorang laki-laki (ayah) adalah pemimpin bagi keluarganya dan ia akan dimintai pertanggungjawaban atas mereka.",
+        quotePerson: "HR. Bukhari & Muslim",
+        quote2: "Kebaikan adab itu terlihat pada tiga hal: Menjauhi yang haram, mencari yang halal, dan memberi kelapangan (nafkah) untuk keluarga.",
+        quotePerson2: "Ali bin Abi Thalib"
+    },
+    {
+        id: 34,
+        title: "Sejarawan",
+        category: "pendidikan",
+        icon: "fa-book",
+        verses: [
+            {
+                text: "“Sungguh, telah berlalu sebelum kamu sunnah-sunnah (ketentuan Allah). Maka berjalanlah kamu di muka bumi dan perhatikanlah bagaimana akibat orang-orang yang mendustakan itu.",
+                reference: "QS. Al-Imran (3): 137"
+            },
+            {
+                text: "Katakanlah, 'Berjalanlah di bumi, lalu perhatikanlah bagaimana kesudahan orang-orang yang mendustakan (rasul-rasul).",
+                reference: "QS. Al-An'am (6): 11"
+            },
+            {
+                text: "Dan semua kisah rasul-rasul, Kami ceritakan kepadamu (Muhammad), agar dengan itu Kami teguhkan hatimu; dan di dalamnya telah diberikan kepadamu kebenaran, nasihat dan peringatan bagi orang yang beriman.",
+                reference: "QS. Hud (11): 120"
+            },
+        ],
+        explanation: "Sejarawan memiliki peran penting dalam merekam dan mempelajari peristiwa masa lalu. Dalam Islam, sejarah adalah sumber pelajaran yang berharga untuk memahami perjalanan umat manusia dan mengambil hikmah dari kejadian-kejadian sebelumnya.",
+        qoute: "Sejarah adalah catatan tentang masyarakat manusia, peradaban dunia, dan perubahan-perubahan yang terjadi pada watak umat",
+        quotePerson: "Ibnu Khaldun",
+        quote2: "Sejarah adalah khazanah pengetahuan tentang kabar umat terdahulu dan pelajaran bagi generasi setelahnya.",
+        quotePerson2: "Al-Mas'udi"
+    },
+    {
+        id: 35,
+        title: "Nelayan",
+        category: "pertanian",
+        icon: "fa-fish",
+        verses: [
+            {
+                text: "Allah-lah yang menundukkan lautan untukmu agar kapal-kapal dapat berlayar di atasnya dengan perintah-Nya, dan agar kamu dapat mencari sebagian karunia-Nya dan agar kamu bersyukur.",
+                reference: "QS. Al-Jasiyah (45): 12"
+            },
+            {
+                text: "Dihalalkan bagimu hewan buruan laut dan makanan (yang berasal) dari laut sebagai makanan yang lezat bagimu dan bagi orang-orang yang dalam perjalanan; tetapi diharamkan bagimu hewan buruan darat, selama kamu dalam keadaan ihram. Dan bertakwalah kepada Allah yang kepada-Nya kamu akan dikumpulkan.",
+                reference: "QS. Al-Maidah (5): 96"
+            },
+            {
+                text: "Dan Dialah (Allah) yang menundukkan lautan (untukmu), agar kamu dapat memakan darinya daging (ikan) yang segar, dan (agar) kamu mengeluarkan dari lautan itu perhiasan yang kamu pakai. Kamu (juga) melihat kapal berlayar padanya, dan agar kamu mencari sebagian karunia-Nya, dan agar kamu bersyukur.",
+                reference: "QS. An-Nahl (16): 14"
+            },
+        ],
+        explanation: "Nelayan memiliki peran penting dalam menyediakan sumber pangan dari laut. Dalam Islam, mencari rezeki melalui cara yang halal dan bermanfaat adalah bagian dari ibadah.",
+        quote: "Hidup ini seperti laut. Kadang tenang, kadang bergelora. Yang penting adalah memiliki perahu yang kuat dan nahkoda yang bijaksana, yaitu iman dan taqwa.",
+        quotePerson: "Buya Hamka",
+        quote2: "Bekerja itu bukan sekadar mencari nafkah, tetapi juga merawat kehidupan. Seorang nelayan yang pergi melaut bukan hanya untuk memberi makan keluarganya, tetapi juga menjadi bagian dari penjaga keseimbangan alam.",
+        quotePerson2: "Cak Nun"
+    },
 ];
 
 // Fungsi untuk menampilkan notifikasi
